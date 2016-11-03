@@ -1,0 +1,25 @@
+body {
+  margin-left:3rem;
+  background-color:  #0099cc; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(white,  #0099cc); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white,  #0099cc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white,  #0099cc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white,  #0099cc); /* Standard syntax */
+}
+
+.jumbotron{
+    background-image: url(http://img10.deviantart.net/80d8/i/2014/175/7/e/goku_minimalist_by_artistwannab3-d7nqtcn.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:70rem;
+}
+
+#wrapper {
+  min-height:100%;
+  position: relative;
+}
+
+
+html {
+  height:100%;
+}
