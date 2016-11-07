@@ -27,6 +27,7 @@ body {
 
     margin-right:10px;
     margin-bottom:10px;
+    padding-bottom:10px;
     padding-left:5px;
     border-radius:5px;
     background-color:#EEAA7A;
@@ -34,7 +35,7 @@ body {
 
 .info :hover {
 
-    text-shadow: 2px 2px;
+    text-shadow: 1px 1px;
 }
 
 #wrapper {
@@ -42,6 +43,22 @@ body {
   margin-top: 2rem;
 }
 
+.bye{
+    font-size:5rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.bye a{
+    color:black;
+}
+
+.bye a:focus{
+}
+.bye a:hover{
+    background-image:url(http://vignette3.wikia.nocookie.net/superkaiju/images/1/1b/Kamehameha.gif/revision/latest?cb=20120907181403);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 .list-group-item{
     background-color:#EEAA7A;
 }
