@@ -1,6 +1,6 @@
 body {
   background-color:  #008B95; /* For browsers that do not support gradients */
-  font-family: 'Shrikhand', cursive;
+  font-family: cursive;
 }
 
 .jumbotron{
@@ -31,6 +31,7 @@ body {
     padding-left:5px;
     border-radius:5px;
     background-color:#EEAA7A;
+    color:black;
 }
 
 .info :hover {
@@ -58,9 +59,6 @@ body {
     background-image:url(http://vignette3.wikia.nocookie.net/superkaiju/images/1/1b/Kamehameha.gif/revision/latest?cb=20120907181403);
     background-repeat: no-repeat;
     background-size:cover;
-}
-.list-group-item{
-    background-color:#EEAA7A;
 }
 
 html {
