@@ -9,10 +9,10 @@ var server = http.createServer (function (req, res) {
 
   switch( uri.pathname ) {
     case '/':
-      sendFile(res, 'proposal.txt')
+      sendFile(res, 'proposal.html')
       break
     case '/index.html':
-      sendFile(res, 'proposal.txt')
+      sendFile(res, 'proposal.html')
       break
     case '/css/style.css':
       fs.readFile(__dirname + '/public/css/style.css', function(error, content) {
@@ -33,7 +33,7 @@ console.log('listening on 8080')
 function sendFile(res, filename) {
 
   fs.readFile(filename, function(error, content) {
-    res.writeHead(200, {'Content-type': 'utf-8'})
+    res.writeHead(200, {'Content-type': 'text/html'})
     res.end(content, 'utf-8')
   })
 
